@@ -1,0 +1,22 @@
+/* Adicione estas regras CSS ao seu arquivo styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pasta-azul {
+    background-color: #3498db; /* Adicionei uma cor de fundo para visualização */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nome {
+    margin: 0;
+    color: #ffffff; /* Adicionei uma cor de texto para visualização */
+}

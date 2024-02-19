@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    background: linear-gradient(to bottom, #1a1a1a, #000000); /* Gradiente de fundo mais suave */
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; /* Alterado para um espaçamento mais uniforme */
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: #333333; /* Fundo da barra de navegação mais escuro */
+    border-bottom: 2px solid #ffffff; /* Linha separadora branca */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adicionada transição suave para a mudança de cor */
+}
+
+a:hover {
+    color: #0073ff;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #0048ff;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333333; /* Fundo do rodapé mais escuro */
+    padding: 20px 0; /* Espaçamento interno no rodapé */
+}
+
+footer a {
+    margin: 0 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    border: 5px solid #ff0000;
+    border-radius: 15px;
+    animation: borderAnimation 5s infinite;
+    background-color: #1a1a1a; /* Fundo do conteúdo mais escuro */
+}
+
+nav a {
+    font-size: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff; /* Adicionada borda branca */
+    border-radius: 5px;
+    background-color: #333333; /* Fundo dos campos de formulário mais escuro */
+    color: #ffffff;
+}
+
+button {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer; /* Adicionado cursor indicativo de botão */
+}
+.container {
+    padding: 20px;
+    border: none; /* Removida a borda */
+    border-radius: 15px;
+    animation: borderAnimation 5s infinite;
+    background-color: #1a1a1a; /* Fundo do conteúdo mais escuro */
+}
+/* Seus estilos atuais aqui */
+
+.jogar-button {
+    position: fixed;
+    top: 2cm; /* Ajuste conforme necessário para a posição desejada */
+    left: 10px; /* Ajuste conforme necessário para a posição desejada */
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+/* Adiciona um estilo ao botão quando o mouse passa sobre ele (opcional) */
+.jogar-button:hover {
+    background-color: darkblue;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Adicione estilos adicionais conforme necessário */
+  /* Adicione estas regras CSS ao seu arquivo index.css */
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff; /* Adicione uma borda branca às imagens */
+    border-radius: 50%; /* Para criar bordas arredondadas nas imagens */
+    margin-right: 10px; /* Ajuste conforme necessário para o espaçamento entre as imagens */
+}
+
+footer a {
+    display: flex;
+    align-items: center; /* Para centralizar verticalmente a imagem e o texto */
+    margin: 0 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
